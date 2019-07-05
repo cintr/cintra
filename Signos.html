@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+
+<head>
+
+    <meta charset="utf-8" />
+
+
+    <script src="Script.js">
+    </script>
+
+
+    <style>
+	.classe1 {
+		background: black;
+		color: white;
+		}
+    </style>
+	
+    <title>Calculadora de signos</title>
+
+</head>
+
+
+<body>
+
+
+
+    <header>
+
+        <h1>Calculadora de signos</h1>
+
+        <p>Descubra seu signo aqui.</p>
+
+    </header>
+
+
+        <section class="">
+
+            <h3>Os signos</h3>
+
+            <p>Existem 12 signos no zodíaco. Cada um representa características diferentes de acordo com o planeta em que ele se encontra. Os signos oferecem uma base descritiva da identidade e do comportamento das pessoas a partir de um espaço de atuação dos planetas em que se encontram. Há signos de fogo, água, terra e ar, cada elemento 
+		separando em grupo os signos com características parecidas, sendo os de fogo mais entusiastas, os de água mais emocionados, os de terra mais práticos, e os de ar mais pensantes. Os signos são: Capricórnio, Aquário, Peixes, Áries, Touro, Gêmeos, Cancêr, Leão, Virgem, Libra, Escorpião, Sagitário.
+            </p>
+
+        </section>
+
+
+        <section class="">
+
+            <h3>A calculadora</h3>
+
+            <p>Aqui, nesse site, você pode descobrir seu signo rapidamente. Tudo que você deve fazer é inserir seu nome e sua data de nascimento nos campos abaixo. Desse modo, identificaremos qual seu signo solar, ou o "principal", e esse será mostrado.
+            </p>
+
+        </section>
+
+        <div class="classe1">
+	<section>
+
+            <h3>Qual é o seu signo?</h3>
+
+            </br>
+
+
+            <label for="nome">Nome</label>
+
+            <input type="text" name="nome" id="nome" class="form-control">
+
+
+            <label for="data">Data de nascimento</label>
+
+            <input type="date" name="data" id="nascimento" class="form-control">
+
+            </br>
+
+            <button onClick="pesquisar()" type="button" class="btn btn-secondary" style="width: 35.45%;">Calcular</button>
+
+
+
+            <h4 id="apresentacao"></h4>
+
+            </br>
+
+            <h5 id="signo-nome"></h5>
+
+            <p id="signo-desc"></p>
+
+        </section>
+
+	</div>
+</script>
+
+</body>
+
+
+</html>

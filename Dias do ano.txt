@@ -1,0 +1,21 @@
+aquario 20-49
+
+peixes 50-79
+
+aries 80-109
+
+touro 110-140
+
+gemeos 141-172
+cancer 173-203
+
+leao 204-234
+virgem 235-265
+libra 266-295
+
+escorpiao 296-325
+
+sagitario 326-355
+
+capricornio 356-19
+
